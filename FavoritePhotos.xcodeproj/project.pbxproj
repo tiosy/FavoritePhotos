@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3020B71AC8D3B3004BBC3F /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3020B61AC8D3B3004BBC3F /* PhotoCollectionViewCell.m */; };
 		6EA3B9E11AC826FD00D3EDDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E01AC826FD00D3EDDF /* main.m */; };
 		6EA3B9E41AC826FD00D3EDDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E31AC826FD00D3EDDF /* AppDelegate.m */; };
 		6EA3B9E71AC826FD00D3EDDF /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E61AC826FD00D3EDDF /* PhotoViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E3020B51AC8D3B3004BBC3F /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		6E3020B61AC8D3B3004BBC3F /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		6EA3B9DB1AC826FD00D3EDDF /* FavoritePhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA3B9DF1AC826FD00D3EDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA3B9E01AC826FD00D3EDDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				6EA3B9E51AC826FD00D3EDDF /* PhotoViewController.h */,
 				6EA3B9E61AC826FD00D3EDDF /* PhotoViewController.m */,
 				6EA3B9E81AC826FD00D3EDDF /* Main.storyboard */,
+				6E3020B51AC8D3B3004BBC3F /* PhotoCollectionViewCell.h */,
+				6E3020B61AC8D3B3004BBC3F /* PhotoCollectionViewCell.m */,
 				6EA3BA041AC8626A00D3EDDF /* Photo.h */,
 				6EA3BA051AC8626A00D3EDDF /* Photo.m */,
 				6EA3B9EB1AC826FD00D3EDDF /* Images.xcassets */,
@@ -227,6 +232,7 @@
 				6EA3BA061AC8626A00D3EDDF /* Photo.m in Sources */,
 				6EA3B9E71AC826FD00D3EDDF /* PhotoViewController.m in Sources */,
 				6EA3B9E41AC826FD00D3EDDF /* AppDelegate.m in Sources */,
+				6E3020B71AC8D3B3004BBC3F /* PhotoCollectionViewCell.m in Sources */,
 				6EA3B9E11AC826FD00D3EDDF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +426,7 @@
 				6EA3BA001AC826FD00D3EDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EA3BA011AC826FD00D3EDDF /* Build configuration list for PBXNativeTarget "FavoritePhotosTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				6EA3BA031AC826FD00D3EDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
