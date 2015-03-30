@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		6EA3B9E11AC826FD00D3EDDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E01AC826FD00D3EDDF /* main.m */; };
 		6EA3B9E41AC826FD00D3EDDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E31AC826FD00D3EDDF /* AppDelegate.m */; };
-		6EA3B9E71AC826FD00D3EDDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E61AC826FD00D3EDDF /* ViewController.m */; };
+		6EA3B9E71AC826FD00D3EDDF /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E61AC826FD00D3EDDF /* PhotoViewController.m */; };
 		6EA3B9EA1AC826FD00D3EDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA3B9E81AC826FD00D3EDDF /* Main.storyboard */; };
 		6EA3B9EC1AC826FD00D3EDDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA3B9EB1AC826FD00D3EDDF /* Images.xcassets */; };
 		6EA3B9EF1AC826FD00D3EDDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA3B9ED1AC826FD00D3EDDF /* LaunchScreen.xib */; };
 		6EA3B9FB1AC826FD00D3EDDF /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B9FA1AC826FD00D3EDDF /* FavoritePhotosTests.m */; };
+		6EA3BA061AC8626A00D3EDDF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3BA051AC8626A00D3EDDF /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		6EA3B9E01AC826FD00D3EDDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EA3B9E21AC826FD00D3EDDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EA3B9E31AC826FD00D3EDDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6EA3B9E51AC826FD00D3EDDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6EA3B9E61AC826FD00D3EDDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EA3B9E51AC826FD00D3EDDF /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		6EA3B9E61AC826FD00D3EDDF /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		6EA3B9E91AC826FD00D3EDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EA3B9EB1AC826FD00D3EDDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6EA3B9EE1AC826FD00D3EDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6EA3B9F41AC826FD00D3EDDF /* FavoritePhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA3B9F91AC826FD00D3EDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA3B9FA1AC826FD00D3EDDF /* FavoritePhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotosTests.m; sourceTree = "<group>"; };
+		6EA3BA041AC8626A00D3EDDF /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = ../Photo.h; sourceTree = "<group>"; };
+		6EA3BA051AC8626A00D3EDDF /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = ../Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +86,11 @@
 			children = (
 				6EA3B9E21AC826FD00D3EDDF /* AppDelegate.h */,
 				6EA3B9E31AC826FD00D3EDDF /* AppDelegate.m */,
-				6EA3B9E51AC826FD00D3EDDF /* ViewController.h */,
-				6EA3B9E61AC826FD00D3EDDF /* ViewController.m */,
+				6EA3B9E51AC826FD00D3EDDF /* PhotoViewController.h */,
+				6EA3B9E61AC826FD00D3EDDF /* PhotoViewController.m */,
 				6EA3B9E81AC826FD00D3EDDF /* Main.storyboard */,
+				6EA3BA041AC8626A00D3EDDF /* Photo.h */,
+				6EA3BA051AC8626A00D3EDDF /* Photo.m */,
 				6EA3B9EB1AC826FD00D3EDDF /* Images.xcassets */,
 				6EA3B9ED1AC826FD00D3EDDF /* LaunchScreen.xib */,
 				6EA3B9DE1AC826FD00D3EDDF /* Supporting Files */,
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA3B9E71AC826FD00D3EDDF /* ViewController.m in Sources */,
+				6EA3BA061AC8626A00D3EDDF /* Photo.m in Sources */,
+				6EA3B9E71AC826FD00D3EDDF /* PhotoViewController.m in Sources */,
 				6EA3B9E41AC826FD00D3EDDF /* AppDelegate.m in Sources */,
 				6EA3B9E11AC826FD00D3EDDF /* main.m in Sources */,
 			);
